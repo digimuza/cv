@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "jsxFactory": "h",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "skipLibCheck": true,
+    "listEmittedFiles": false,
+    "declaration": true,
+    "declarationMap": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "rootDirs": ["./src"],
+    "module": "commonjs",
+    "target": "ES5",
+    "lib": ["DOM","ES2020"],
+    "typeRoots": ["./node_modules/@types"],
+    "outDir": "./lib"
+  },
+
+  "include": ["./src/**/*"]
+}

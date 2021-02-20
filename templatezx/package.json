@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gatsby": "^2.32.4"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.3"
+  }
+}

@@ -156,7 +156,7 @@
 	/*
 		Set Height Started Section
 	*/
-	$('.section.started').css({'height': height});
+	// $('.section.started').css({'height': height});
 	$('.logged-in .section.started').css({'height': height-32});
 	if(width < 783) {
 		$('.section.started').css({'height': height});
