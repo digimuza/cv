@@ -11,7 +11,7 @@
     "phone": "+37060262684",
     "profiles": [
       {
-        "url": "https://github.com/digimuza",
+        "url": "https://github.com/digimuza/cv",
         "username": "digimuza",
         "network": "github"
       },
@@ -114,11 +114,11 @@
       ]
     },
     {
-      "summary": "Wordpress developer",
+      "summary": "Created stunning websites using Wordpress CMS, HTML & CSS",
       "website": "https://www.adeoweb.lt/",
       "company": "AdeoWeb",
       "location": "Kaunas",
-      "position": "Fullstack NodeJS Developer",
+      "position": "Wordpress developer",
       "startDate": "2014-10-01",
       "endDate": "2016-03-01",
       "highlights": [

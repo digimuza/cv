@@ -17,7 +17,7 @@
     "serve": "light-server -s dist -p 7000 -q ",
     "compile": "ts-node ./src/watch.ts",
     "start": "concurrently \"yarn serve\" \"yarn compile\"",
-    "export": "resume export --theme onepage dist/cv.html"
+    "export": "resume export --theme onepage docs/cv.html"
   },
   "devDependencies": {
     "resume-cli": "^3.0.4",
