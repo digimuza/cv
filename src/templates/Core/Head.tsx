@@ -12,7 +12,6 @@ export function Head() {
         name="keywords"
         content="vcard, resposnive, resume, personal, card, cv, cvio, portfolio"
       />
-      <base href="/cv" />
       <meta name="author" content="beshleyua" />
       <title>Full stack javascript developer</title>
 
