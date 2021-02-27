@@ -74,7 +74,7 @@ export function Experience() {
                 <div class={"experience-company-logo"}>
                   <a target={'_blank'} href={'https://www.adeoweb.lt/'}>
                     <img
-                      src="/images/adeo.png"
+                      src="images/adeo.png"
                       alt="Adeo Web – eCommerce solutions"
                       className="logo_standard"
                       width={200}
