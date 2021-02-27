@@ -14,7 +14,7 @@ async function renderFiles() {
                 }
             })
             .map((q) => {
-                return writeAsync(path(root, "./dist/", q.page), q.content)
+                return writeAsync(path(root, "./docs/", q.page), q.content)
             })
     )
 }
