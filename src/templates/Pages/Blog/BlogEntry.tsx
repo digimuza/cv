@@ -1,7 +1,7 @@
 import { Fragment, h } from "preact";
 import { Page } from "../../Core/Page";
 
-export function ArticlesTopSection(props: Article) {
+export function BlogTopSection(props: BlogEntry) {
   return (
     <div
       className="section started layout-creative"
@@ -46,7 +46,7 @@ export interface ArticleEntrySection {
   title: h.JSX.Element;
   text: h.JSX.Element;
 }
-export function ArticleEntry(props: Article) {
+export function BlogContent(props: BlogEntry) {
   return (
     <div className="section blog">
       <div className="content content-box">
@@ -90,17 +90,17 @@ export function ArticleEntry(props: Article) {
   );
 }
 
-export interface Article {
+export interface BlogEntry {
   title: string;
   sections: ReadonlyArray<ArticleEntrySection>;
   image?: string;
 }
-export function Article(props: { data: Article }) {
+export function BlogEntry(props: { data: BlogEntry }) {
   return (
     <Page class={""}>
       <div className="wrapper">
-        <ArticlesTopSection {...props.data}></ArticlesTopSection>
-        <ArticleEntry {...props.data}></ArticleEntry>
+        <BlogTopSection {...props.data}></BlogTopSection>
+        <BlogContent {...props.data}></BlogContent>
       </div>
     </Page>
   );

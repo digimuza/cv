@@ -42,7 +42,7 @@ export function AboutMe() {
                 <li>
                   <strong>E-mail:</strong>
                   <a href="mailto:andrius@mozuraitis.com">
-                    andrius@mozuraitis.com
+                    {' '}andrius@mozuraitis.com
                   </a>
                 </li>
               </ul>

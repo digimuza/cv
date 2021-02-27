@@ -5,8 +5,6 @@ import { writeAsync, path } from 'fs-jetpack'
 const root = path(__dirname, "../")
 
 async function renderFiles() {
-    console.log("Rendering")
-
     await Promise.all(
         pages
         .map((q) => {

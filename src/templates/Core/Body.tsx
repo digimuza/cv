@@ -4,7 +4,7 @@ import { WithChildren } from "../../types";
 export function Body(props: WithChildren<{ class: string }>) {
   return (
     <body class={props.class}>
-      <div class="preloader">
+      {/* <div class="preloader">
         <div class="centrize full-width">
           <div class="vertical-center">
             <div class="spinner">
@@ -13,7 +13,7 @@ export function Body(props: WithChildren<{ class: string }>) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div class="container">
         <div class="cursor-follower"></div>
         {props.children}

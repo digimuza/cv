@@ -30,6 +30,15 @@ export function Head() {
       <link rel="stylesheet" href="css/brands.css" />
       <link rel="stylesheet" href="css/solid.css" />
       <link rel="stylesheet" href="css/theme-colors/blue.css" />
+      {/* <link rel="stylesheet" href="css/theme-colors/green.css" /> */}
+      {/* <link rel="stylesheet" href="css/theme-colors/orange.css" /> */}
+      {/* <link rel="stylesheet" href="css/theme-colors/brown.css" /> */}
+      {/* <link rel="stylesheet" href="css/theme-colors/purple.css" /> */}
+      {/* <link rel="stylesheet" href="css/theme-colors/red.css" /> */}
+      {/* <link rel="stylesheet" href="css/theme-colors/beige.css" /> */}
+      {/* <link rel="stylesheet" href="css/theme-colors/green_light.css" /> */}
+      {/* <link rel="stylesheet" href="css/theme-colors/yellow.css" /> */}
+      {/* <link rel="stylesheet" href="css/theme-colors/yellow_light.css" /> */}
 
       <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -37,4 +46,3 @@ export function Head() {
     </head>
   );
 }
-

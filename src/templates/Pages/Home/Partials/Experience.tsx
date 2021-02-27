@@ -12,8 +12,8 @@ export function Experience() {
 
             <div className="resume-items">
               <div className="resume-item content-box active">
-                <div>
-                  <a href="http://searchnode.com/">
+                <div class={"experience-company-logo"}>
+                  <a target={'_blank'} href="http://searchnode.com/">
                     <img
                       src="images/searchnode.png"
                       data-src="images/searchnode.png"
@@ -27,7 +27,10 @@ export function Experience() {
                 <div className="date">2018 - Present</div>
                 <div className="name">
                   Fullstack NodeJS developer -
-                  <a href="http://searchnode.com/">SearchNode</a>
+                  <a target={"_blank"} href="http://searchnode.com/">
+                    {" "}
+                    SearchNode
+                  </a>
                 </div>
                 <div className="text">
                   SearchNode creates excellent search experience for clients
@@ -37,9 +40,9 @@ export function Experience() {
                   <a href={"searchnode.html"}>Read more</a>
                 </div>
               </div>
-              <div className="resume-item content-box">
-                <div>
-                  <a href="https://www.passcamp.com/">
+              <div className="resume-item content-box active">
+                <div class={"experience-company-logo"}>
+                  <a target={"_blank"} href="https://www.passcamp.com/">
                     <img
                       width={200}
                       height={50}
@@ -55,7 +58,9 @@ export function Experience() {
                 <div className="date">2016 - 2018</div>
                 <div className="name">
                   Fullstack NodeJS Developer -
-                  <a href="https://www.passcamp.com/">PassCamp</a>
+                  <a target={"_blank"} href="https://www.passcamp.com/">
+                    PassCamp
+                  </a>
                 </div>
                 <div className="text">
                   Military grade password manager for teams
@@ -66,13 +71,15 @@ export function Experience() {
                 </div>
               </div>
               <div className="resume-item content-box active">
-                <div>
-                  <img
-                    src="/images/adeo.png"
-                    alt="Adeo Web – eCommerce solutions"
-                    className="logo_standard"
-                    width={200}
-                  />
+                <div class={"experience-company-logo"}>
+                  <a target={'_blank'} href={'https://www.adeoweb.lt/'}>
+                    <img
+                      src="/images/adeo.png"
+                      alt="Adeo Web – eCommerce solutions"
+                      className="logo_standard"
+                      width={200}
+                    />
+                  </a>
                 </div>
                 <div className="date">2014 - 2015</div>
                 <div className="name">
@@ -116,7 +123,7 @@ export function Experience() {
 
             <div className="resume-items">
               <div className="resume-item content-box active">
-                <div>
+                <div class={"experience-company-logo"}>
                   <a href="https://digimuza.github.io/iterparse">
                     <img
                       alt="logo"
@@ -134,11 +141,11 @@ export function Experience() {
                 </div>
                 <br />
                 <div className="text">
-                  <a>Read more</a>
+                  <a href={"iterparse.html"}>Read more</a>
                 </div>
               </div>
               <div className="resume-item content-box active">
-                <div>
+                <div class={"experience-company-logo"}>
                   <a href="https://digimuza.github.io/ts-prime">
                     <img
                       src="images/tsprime.png"
@@ -157,7 +164,7 @@ export function Experience() {
                 </div>
                 <br />
                 <div className="text">
-                  <a>Read more</a>
+                  <a href={"ts-prime.html"}>Read more</a>
                 </div>
               </div>
             </div>

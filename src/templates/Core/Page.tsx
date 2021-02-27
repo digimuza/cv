@@ -16,7 +16,7 @@ export function Page(props: WithChildren<{ class: string }>) {
             </a>
 
             <div class="logo hover-masks-logo">
-              <a href="#">
+              <a href="/#section-about">
                 <span class="mask-lnk">
                   Andrius <strong>Mozūraitis</strong>
                 </span>
@@ -37,7 +37,7 @@ export function Page(props: WithChildren<{ class: string }>) {
                       <a href="#section-about">Resume</a>
                     </li>
                     <li class="menu-item">
-                      <a href="/pages.html">Articles</a>
+                      <a href="/pages.html">Blog</a>
                     </li>
                     <li class="menu-item">
                       <a href="#section-contacts">Contact</a>

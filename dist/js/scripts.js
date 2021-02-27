@@ -159,7 +159,7 @@
 	// $('.section.started').css({'height': height});
 	$('.logged-in .section.started').css({'height': height-32});
 	if(width < 783) {
-		$('.section.started').css({'height': height});
+		// $('.section.started').css({'height': height});
 		$('.logged-in .section.started').css({'height': height-46});
 	}
 
@@ -567,9 +567,9 @@
 		var height = $(window).height();
 		
 		/* Set full height in started blocks */
-		$('.section.started').css({'height': height});
+		// $('.section.started').css({'height': height});
 		if(width < 783) {
-			$('.section.started').css({'height': height});
+			// $('.section.started').css({'height': height});
 		}
 
 		/* Dotted skills line on resize */
