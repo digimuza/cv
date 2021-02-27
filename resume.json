@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "theme": "onepage"
+  },
+  "basics": {
+    "name": "Andrius Mozūraitis",
+    "label": "Full Stack NodeJS Developer",
+    "image": "https://avatars0.githubusercontent.com/u/416209?s=460&u=38f220a2c9c658141804f881c334c594eb1642ac&v=4",
+    "summary": "I’m a full stack web developer who can build apps from the ground up. I've worked mostly at startups so I am use to wearing many hats. I am a very product focussed developer who priotizes user feedback first and foremost. I'm generally very flexible when investigating new roles. ",
+    "email": "andriusmozuraitis@gmail.com",
+    "phone": "+37060262684",
+    "profiles": [
+      {
+        "url": "https://github.com/digimuza",
+        "username": "digimuza",
+        "network": "github"
+      },
+      {
+        "url": "https://github.com/digimuza",
+        "username": "digimuza",
+        "network": "github"
+      }
+    ]
+  },
+  "education": [
+    {
+      "endDate": "2009-12-12",
+      "startDate": "2008-02-12",
+      "area": "Software Engineering (incomplete)",
+      "studyType": "Bachelors",
+      "institution": "Kaunas university of applied sciences"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML / JSX",
+        "SCSS / CSS",
+        "Javascript / Typescript",
+        "React / Next",
+        "AngularJS"
+      ],
+      "level": "Senior",
+      "name": "Frontend"
+    },
+    {
+      "keywords": [
+        "Node",
+        "Python",
+        "Postgres",
+        "Redis",
+        "Serverless",
+        "Mongo",
+        "Firebase",
+        "Elastic"
+      ],
+      "level": "Senior",
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "AWS",
+        "G Cloud",
+        "Heroku",
+        "Jenkins",
+        "Docker",
+        "Kubernetes"
+      ],
+      "level": "Senior",
+      "name": "Devops"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "B1"
+    },
+    {
+      "language": "Lithuania",
+      "fluency": "Native speaker"
+    }
+  ],
+  "work": [
+    {
+      "summary": "Searchnode provides excellent search experience for ecommerce platform.",
+      "website": "https://searchnode.com/",
+      "company": "SearchNode",
+      "location": "Kaunas",
+      "position": "Fullstack NodeJS Developer",
+      "startDate": "2018-05-05",
+      "highlights": [
+        "Worked with huge amounts of data",
+        "PRO level on Typescript",
+        "Product development",
+        "Node.js inside out",
+        "Developed 12 libraries - each are designed for agile development"
+      ]
+    },
+    {
+      "summary": "Password manager for teams that protects the privacy and safety of your company's data.",
+      "website": "https://www.passcamp.com/",
+      "company": "Passcamp",
+      "location": "Kaunas",
+      "position": "Fullstack NodeJS Developer",
+      "startDate": "2016-03-01",
+      "endDate": "2018-01-01",
+      "highlights": [
+        "Developed SPA using Angular 4+",
+        "Developed backend using GoLang / NodeJS",
+        "Chrome / Safari extension development",
+        "Docker / GCP",
+        "Used Figma for design and UX work",
+        "Mastered SQL using Postgres database"
+      ]
+    },
+    {
+      "summary": "Wordpress developer",
+      "website": "https://www.adeoweb.lt/",
+      "company": "AdeoWeb",
+      "location": "Kaunas",
+      "position": "Fullstack NodeJS Developer",
+      "startDate": "2014-10-01",
+      "endDate": "2016-03-01",
+      "highlights": [
+        "Developed Wordpress websites",
+        "Plugins for wordpress"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Toastmasters"
+    },
+    {
+      "name": "Music / Jamming"
+    },
+    {
+      "name": "Reading / Writing"
+    },
+    {
+      "name": "Open Source"
+    }
+  ]
+}

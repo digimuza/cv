@@ -18,7 +18,7 @@ export function Interests() {
               </div>
               <div className="name">Self development</div>
               <div className="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Every day is a quest for excellence. I always as question how I can be better than yesterday?
               </div>
             </div>
           </div>

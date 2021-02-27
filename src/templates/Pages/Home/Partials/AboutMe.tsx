@@ -48,7 +48,7 @@ export function AboutMe() {
               </ul>
             </div>
             <div class="bts">
-              <a href="#" class="btn hover-animated">
+              <a target={'_blank'} href="Andrius Mozūraitis.pdf" class="btn hover-animated">
                 <span class="circle"></span>
                 <span class="lnk">Download CV</span>
               </a>

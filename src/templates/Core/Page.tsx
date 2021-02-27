@@ -37,7 +37,7 @@ export function Page(props: WithChildren<{ class: string }>) {
                       <a href="#section-about">Resume</a>
                     </li>
                     <li class="menu-item">
-                      <a href="/pages.html">Blog</a>
+                      <a href="/blog.html">Blog</a>
                     </li>
                     <li class="menu-item">
                       <a href="#section-contacts">Contact</a>

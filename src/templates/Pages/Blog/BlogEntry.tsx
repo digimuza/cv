@@ -1,4 +1,4 @@
-import { Fragment, h } from "preact";
+import { Fragment, h, JSX } from "preact";
 import { Page } from "../../Core/Page";
 
 export function BlogTopSection(props: BlogEntry) {
@@ -67,20 +67,7 @@ export function BlogContent(props: BlogEntry) {
               })}
             </div>
             <div className="details-col">
-              {/* title */}
-              <div className="title">
-                <div className="title_inner">Details</div>
-              </div>
-              {/* details */}
-              <ul className="details-list">
-                <li>
-                  <strong>Company:</strong>{" "}
-                  <a href={"https://searchnode.com/"}>SearchNode</a>
-                </li>
-                <li>
-                  <strong>Working from:</strong> 2018 - Present
-                </li>
-              </ul>
+             {props.details}
             </div>
           </div>
         </div>
@@ -94,6 +81,7 @@ export interface BlogEntry {
   title: string;
   sections: ReadonlyArray<ArticleEntrySection>;
   image?: string;
+  details: JSX.Element
 }
 export function BlogEntry(props: { data: BlogEntry }) {
   return (

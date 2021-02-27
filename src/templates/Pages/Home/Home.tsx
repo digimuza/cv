@@ -19,15 +19,13 @@ export function Home() {
       <div className="wrapper">
         <TopSection></TopSection>
         <AboutMe></AboutMe>
-        <WhyMe></WhyMe>
         <Experience></Experience>
       </div>
       <SoftSkills></SoftSkills>
       <LanguageSkills></LanguageSkills>
       <CodingSkills></CodingSkills>
       <SpecificKnowledge></SpecificKnowledge>
-      <Interests></Interests>
-      <Testimonials></Testimonials>
+      {/* <Interests></Interests> */}
       <Contacts></Contacts>
     </Page>
   );

@@ -12,12 +12,16 @@
     "tslib": "^2.1.0",
     "typescript-require": "^0.3.0"
   },
+  "license": "MIT",
   "scripts": {
     "serve": "light-server -s dist -p 7000 -q ",
     "compile": "ts-node ./src/watch.ts",
-    "start": "concurrently \"yarn serve\" \"yarn compile\""
+    "start": "concurrently \"yarn serve\" \"yarn compile\"",
+    "export": "resume export --theme onepage dist/cv.html"
   },
   "devDependencies": {
+    "resume-cli": "^3.0.4",
+    "jsonresume-theme-onepage": "^0.0.3",
     "concurrently": "^6.0.0",
     "light-server": "^2.9.1",
     "ts-node": "^9.1.1",

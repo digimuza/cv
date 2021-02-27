@@ -58,7 +58,7 @@ export function Experience() {
                 <div className="date">2016 - 2018</div>
                 <div className="name">
                   Fullstack NodeJS Developer -
-                  <a target={"_blank"} href="https://www.passcamp.com/">
+                  {' '}<a target={"_blank"} href="https://www.passcamp.com/">
                     PassCamp
                   </a>
                 </div>
@@ -84,7 +84,7 @@ export function Experience() {
                 <div className="date">2014 - 2015</div>
                 <div className="name">
                   Wordpress Developer -
-                  <a href="https://www.adeoweb.lt/">Adeo WEB</a>
+                  {' '}<a href="https://www.adeoweb.lt/">Adeo WEB</a>
                 </div>
                 <div className="text">
                   Building wordpress and e-commerce websites
