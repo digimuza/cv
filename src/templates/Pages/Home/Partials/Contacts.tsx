@@ -27,7 +27,7 @@ export function Contacts() {
               <div className="name">Email</div>
               <div className="text">
                 <a href="mailto:andrius@mozuraitis.com">
-                  andrius@mozuraitis.com
+                  andriusmozuraitis@gmail.com
                 </a>
               </div>
             </div>

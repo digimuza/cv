@@ -16,7 +16,7 @@ export function Page(props: WithChildren<{ class: string }>) {
             </a>
 
             <div class="logo hover-masks-logo">
-              <a href="/#section-about">
+              <a href="index.html/#section-about">
                 <span class="mask-lnk">
                   Andrius <strong>Mozūraitis</strong>
                 </span>
@@ -31,16 +31,16 @@ export function Page(props: WithChildren<{ class: string }>) {
                 <div class="menu-topmenu-container">
                   <ul class="menu">
                     <li class="menu-item current-menu-item">
-                      <a href="#section-started">Home</a>
+                      <a href="index.html/#section-started">Home</a>
                     </li>
                     <li class="menu-item">
-                      <a href="#section-about">Resume</a>
+                      <a href="index.html/#section-started">Resume</a>
                     </li>
                     <li class="menu-item">
-                      <a href="/blog.html">Blog</a>
+                      <a href="blog.html">Blog</a>
                     </li>
                     <li class="menu-item">
-                      <a href="#section-contacts">Contact</a>
+                      <a href="index.html/#section-contacts">Contact</a>
                     </li>
                   </ul>
                 </div>
